@@ -230,7 +230,7 @@ int Age=10;
                 Navigator.push(context,
                   MaterialPageRoute(builder: (context){
                     return ResultsPage(
-                      bmiresult: calc.caluculateBMI(),
+                      bmiresult: calc.calculateBMI(),
                       resultText: calc.getResult(),
                       interpretation: calc.getInterpretation(),
                     );
